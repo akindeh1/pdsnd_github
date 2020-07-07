@@ -5,7 +5,7 @@
 Explore US Bikeshare Data
 
 ### Description
-Describe what your project is about and what it does
+This project is about the exploration of data for a bike share systems for three cities in the United States of America (Chicago, New York, and Washington).
 
 ### Files used
 Include the files used
