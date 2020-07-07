@@ -332,6 +332,7 @@ def seconds_to_HMS_str(total_seconds):
 
 
 def info():
+    """This function displays the information about the cities to be analysed"""
     print('CITIES'.ljust(30), 'MONTHS'.ljust(30), 'DAYS OF THE WEEK'.ljust(30))
     print('1. Chicago'.ljust(30), '1. January'.ljust(30), '1. Monday'.ljust(30))
     print('2. New york city'.ljust(30), '2. February'.ljust(30), '2. Tuesday'.ljust(30))
