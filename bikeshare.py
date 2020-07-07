@@ -281,14 +281,7 @@ def hour_12_format(hour):
 
 
 def seconds_to_HMS_str(total_seconds):
-    """
-    Converts number of seconds to human readable string format.
-
-    Args:
-        (int) total_seconds - number of seconds to convert
-    Returns:
-        (str) day_hour_str - number of weeks, days, hours, minutes, and seconds
-    """
+    """ Converts number of seconds to human readable string format """
 
     minutes, seconds = divmod(total_seconds, 60)
     hours, minutes = divmod(minutes, 60)
