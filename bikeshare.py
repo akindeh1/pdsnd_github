@@ -238,15 +238,10 @@ def get_month(mon):
     month = ''
     while True:
         month_name = input(" Enter the name of the month or enter all:  ").lower()
-        month = ''
-        if month_name == 'all':
-            month = month_name
+        if month_name in mon:
             break
-        elif month_name in mon:
-            month = month_name
-            break
-        else:
-            continue
+    
+    month = month_name
 
     return month
 
