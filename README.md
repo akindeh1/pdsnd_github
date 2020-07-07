@@ -11,5 +11,5 @@ This project is about the exploration of data for a bike share systems for three
 new_york_city.csv chicago.csv washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+Thank you Udacity for such an initiative for creating this course
 
