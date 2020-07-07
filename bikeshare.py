@@ -251,16 +251,10 @@ def get_day(days_of_week):
     day = None
     while True:
         day_name = input(" Enter the name of the day or or enter all:  ").lower()
-        day = ''
-        if day_name == 'all':
-            day = day_name
+        
+        if day_name in week_days:
             break
-        elif day_name in days_of_week:
-            day = day_name
-            break
-        else:
-            continue
-
+    day = day_name
     return day
 
 
